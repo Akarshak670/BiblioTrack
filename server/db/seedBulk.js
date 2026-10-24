@@ -1,7 +1,7 @@
 const { faker } = require('@faker-js/faker');
 const pool = require('./adminPool');
 
-const TOTAL_BOOKS = 1000;
+const TOTAL_BOOKS = Number(process.env.SEED_BOOK_COUNT) || 1000;
 const CATEGORY_NAMES = [
     'Fiction', 'Non-Fiction', 'Science', 'History', 'Technology',
     'Biography', 'Fantasy', 'Mystery', 'Romance', 'Poetry',
