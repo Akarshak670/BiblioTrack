@@ -27,5 +27,5 @@ services:
         value: https://bibliotrack-api-bg3t.onrender.com/api
     routes:
       - type: rewrite
-        source: /(.*)
+        source: /*
         destination: /index.html
