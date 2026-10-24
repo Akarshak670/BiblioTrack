@@ -1,5 +1,5 @@
 const { faker } = require('@faker-js/faker');
-const pool = require('./pool');
+const pool = require('./adminPool');
 
 const TOTAL_BOOKS = 1000;
 const CATEGORY_NAMES = [

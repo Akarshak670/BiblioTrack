@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const pool = require('./pool');
+const pool = require('./adminPool');
 
 async function migrate() {
     const schema = fs.readFileSync(path.join(__dirname, 'schema.sql'), 'utf8');
