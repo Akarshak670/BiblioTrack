@@ -26,5 +26,6 @@ services:
       - key: VITE_API_URL
         value: https://bibliotrack-api.onrender.com/api
     routes:
-      - source: /(.*)
+      - type: rewrite
+        source: /(.*)
         destination: /index.html
