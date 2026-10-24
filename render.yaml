@@ -24,7 +24,7 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        value: https://bibliotrack-api.onrender.com/api
+        value: https://bibliotrack-api-bg3t.onrender.com/api
     routes:
       - type: rewrite
         source: /(.*)
